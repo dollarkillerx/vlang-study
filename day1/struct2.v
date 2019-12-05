@@ -14,7 +14,7 @@ fn main() {
 	button := new_button()
 }
 
-func new_button() *Button {
+fn new_button() *Button {
 	return &Button{
 		Widget:&Widget{}
 	}
